@@ -194,5 +194,33 @@
       "Prime Eligible",
       "Highly Rated"
     ]
+  },
+  {
+    "sku": "best-cooling-pillow-side-sleeper-B0DX793MV8",
+    "name": "Nuzzle Cooling Adjustable Pillow for Side Sleepers",
+    "brand": "Top Pick",
+    "price": "Check Price",
+    "aff_url": "https://www.amazon.com/dp/B0DX793MV8?tag=alexsleep-20",
+    "image": "/images/best-cooling-pillow-side-sleeper-B0DX793MV8.jpg",
+    "category": "gear",
+    "features": [
+      "Adjustable pillow for side sleepers, luxury standard size bed pillow hotel colle...",
+      "Prime Eligible",
+      "Highly Rated"
+    ]
+  },
+  {
+    "sku": "white-noise-machine-for-baby-B07RWRJ4XW",
+    "name": "Magicteam White Noise Machine with 20 Non Looping ",
+    "brand": "Top Pick",
+    "price": "Check Price",
+    "aff_url": "https://www.amazon.com/dp/B07RWRJ4XW?tag=alexsleep-20",
+    "image": "/images/white-noise-machine-for-baby-B07RWRJ4XW.jpg",
+    "category": "gear",
+    "features": [
+      "20 non looping natural soothing sounds memory function, 32 levels of volume, pow...",
+      "Prime Eligible",
+      "Highly Rated"
+    ]
   }
 ]

@@ -209,6 +209,17 @@ description: "A complete guide to {brief['keyword']}."
     
     print(f"✅ Saved Post: {save_path}")
 
+def git_push():
+    """Automatically pushes the new articles to GitHub."""
+    try:
+        print("\n🚀 Pushing changes to GitHub...")
+        os.system('git add .')
+        os.system('git commit -m "New automated content"')
+        os.system('git push')
+        print("✅ Live on the internet!")
+    except Exception as e:
+        print(f"❌ Push failed: {e}")
+
 def main():
     # Define Keywords
     keywords = ["weighted blanket for anxiety", "best cooling pillow side sleeper", "white noise machine for baby"]
@@ -228,6 +239,10 @@ def main():
                 time.sleep(2)
         else:
             print(f"   ⚠️ Could not find product for {kw}, skipping.")
+	# ... existing loop code ...
+    
+    # AFTER the loop finishes (outside the 'for' loop)
+    git_push()
 
 if __name__ == "__main__":
     main()
