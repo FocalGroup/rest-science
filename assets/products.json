@@ -1,0 +1,198 @@
+[
+  {
+    "sku": "pillow_cool1",
+    "name": "Cooling Gel Pillow",
+    "brand": "RestCo",
+    "price": "89.99",
+    "aff_url": "https://example.com/aff/pillow1",
+    "image": "/images/pillow1.jpg",
+    "category": "pillow",
+    "features": [
+      "gel-infused",
+      "removable cover",
+      "machine washable"
+    ]
+  },
+  {
+    "sku": "noise_wm1",
+    "name": "White Noise Machine Lite",
+    "brand": "SleepBox",
+    "price": "39.99",
+    "aff_url": "https://example.com/aff/noise1",
+    "image": "/images/noise1.jpg",
+    "category": "noise",
+    "features": [
+      "10 sounds",
+      "timer",
+      "usb power"
+    ]
+  },
+  {
+    "sku": "weighted-blanket-for-anxiety-525",
+    "name": "CalmSleep Weighted Blanket",
+    "brand": "Top Pick",
+    "price": "59.99",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/weighted-blanket-for-anxiety-525.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "best-cooling-pillow-side-sleeper-282",
+    "name": "ArcticRest Gel Pillow",
+    "brand": "Top Pick",
+    "price": "45.00",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/best-cooling-pillow-side-sleeper-282.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "white-noise-machine-for-baby-331",
+    "name": "DreamSound Pro Machine",
+    "brand": "Top Pick",
+    "price": "29.99",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/white-noise-machine-for-baby-331.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "weighted-blanket-for-anxiety-854",
+    "name": "CalmSleep Weighted Blanket",
+    "brand": "Top Pick",
+    "price": "59.99",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/weighted-blanket-for-anxiety-854.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "best-cooling-pillow-side-sleeper-632",
+    "name": "ArcticRest Gel Pillow",
+    "brand": "Top Pick",
+    "price": "45.00",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/best-cooling-pillow-side-sleeper-632.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "white-noise-machine-for-baby-328",
+    "name": "DreamSound Pro Machine",
+    "brand": "Top Pick",
+    "price": "29.99",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/white-noise-machine-for-baby-328.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "weighted-blanket-for-anxiety-535",
+    "name": "CalmSleep Weighted Blanket",
+    "brand": "Top Pick",
+    "price": "59.99",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/weighted-blanket-for-anxiety-535.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "weighted-blanket-for-anxiety-490",
+    "name": "CalmSleep Weighted Blanket",
+    "brand": "Top Pick",
+    "price": "59.99",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/weighted-blanket-for-anxiety-490.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "best-cooling-pillow-side-sleeper-555",
+    "name": "ArcticRest Gel Pillow",
+    "brand": "Top Pick",
+    "price": "45.00",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/best-cooling-pillow-side-sleeper-555.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "white-noise-machine-for-baby-472",
+    "name": "DreamSound Pro Machine",
+    "brand": "Top Pick",
+    "price": "29.99",
+    "aff_url": "https://www.amazon.com/dp/B00000?tag=alexsleep-20",
+    "image": "/images/white-noise-machine-for-baby-472.jpg",
+    "category": "gear",
+    "features": [
+      "High Quality Material",
+      "Prime Shipping",
+      "4.5 Star Rating"
+    ]
+  },
+  {
+    "sku": "weighted-blanket-for-anxiety-B073429DV2",
+    "name": "YnM 15lbs Weighted Blanket for Adults, Heavy Bed T",
+    "brand": "Top Pick",
+    "price": "Check Price",
+    "aff_url": "https://www.amazon.com/dp/B073429DV2?tag=alexsleep-20",
+    "image": "/images/weighted-blanket-for-anxiety-B073429DV2.jpg",
+    "category": "gear",
+    "features": [
+      "YnM 15lbs Weighted Blanket for Adults, Heavy Bed Throw Blanket with Cooling Glas...",
+      "Prime Eligible",
+      "Highly Rated"
+    ]
+  },
+  {
+    "sku": "white-noise-machine-for-baby-B0BBQX7P5J",
+    "name": "Dreamegg Portable Noise Machine for Baby Adult ...",
+    "brand": "Top Pick",
+    "price": "Check Price",
+    "aff_url": "https://www.amazon.com/dp/B0BBQX7P5J?tag=alexsleep-20",
+    "image": "/images/white-noise-machine-for-baby-B0BBQX7P5J.jpg",
+    "category": "gear",
+    "features": [
+      "Designed for all things sleep, this sound machine comes with favorable features:...",
+      "Prime Eligible",
+      "Highly Rated"
+    ]
+  }
+]

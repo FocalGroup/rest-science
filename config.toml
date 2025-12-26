@@ -1,0 +1,28 @@
+baseURL = "https://rest-science.com/"
+title   = "Rest Science"
+languageCode = "en-us"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+disableKinds = ["taxonomy"]
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.6
+  filename = "sitemap.xml"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[minify]
+  minifyOutput = true
+
+[params]
+  site_description = "Clear, practical sleep gear guides."
+  author = "Rest Science"
+  showReadingTime = true

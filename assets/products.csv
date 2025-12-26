@@ -1,0 +1,4 @@
+sku,name,brand,price,aff_url,image,category,features
+pillow_cool1,Cooling Gel Pillow,RestCo,89.99,https://example.com/aff/pillow1,/images/pillow1.jpg,pillow,"gel-infused;removable cover;machine washable"
+noise_wm1,White Noise Machine Lite,SleepBox,39.99,https://example.com/aff/noise1,/images/noise1.jpg,noise,"10 sounds;timer;usb power"
+mask_silk1,Silk Sleep Mask,QuietWrap,24.99,https://example.com/aff/mask1,/images/mask1.jpg,mask,"mulberry silk;contoured;adjustable strap"

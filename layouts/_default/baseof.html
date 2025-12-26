@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Params.description | default site.Params.site_description }}">
+  <style>
+    body { font-family: system-ui, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+    header, footer { padding: 20px 0; border-bottom: 1px solid #eee; margin-bottom: 20px; }
+    nav a { margin-right: 15px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    .product-card { display: flex; gap: 20px; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; margin: 30px 0; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    .product-image img { max-width: 150px; border-radius: 4px; }
+    .product-details h3 { margin-top: 0; }
+    .brand { font-weight: normal; font-size: 0.9em; color: #666; }
+    .features { padding-left: 20px; font-size: 0.9em; color: #555; }
+    .price-action { margin-top: 15px; display: flex; align-items: center; gap: 15px; }
+    .price { font-size: 1.25em; font-weight: bold; color: #222; }
+    .btn-buy { background: #0066cc; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; }
+    .btn-buy:hover { background: #004c99; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">{{ site.Title }}</a>
+      <a href="/posts/">Reviews</a>
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    <p>&copy; {{ now.Year }} {{ site.Title }}</p>
+  </footer>
+</body>
+</html>

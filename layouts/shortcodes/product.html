@@ -1,0 +1,25 @@
+{{- $sku := .Get "sku" -}}
+{{- $data := resources.Get "products.json" | transform.Unmarshal -}}
+{{- $product := index (where $data "sku" $sku) 0 -}}
+
+{{- if $product -}}
+<div class="product-card">
+  <div class="product-image">
+    <img src="{{ $product.image }}" alt="{{ $product.name }}" loading="lazy">
+  </div>
+  <div class="product-details">
+    <h3>{{ $product.name }} <span class="brand">by {{ $product.brand }}</span></h3>
+    <ul class="features">
+      {{ range $product.features }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    <div class="price-action">
+      <span class="price">${{ $product.price }}</span>
+      <a href="{{ $product.aff_url }}" class="btn-buy" rel="sponsored noopener" target="_blank">Check Price</a>
+    </div>
+  </div>
+</div>
+{{- else -}}
+  {{- warnf "Product SKU '%s' not found in assets/products.json" $sku -}}
+{{- end -}}
