@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rest Science</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        .post-card { border: 1px solid #eee; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        h1 { text-align: center; }
+        .date { color: #666; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>🌙 Rest Science</h1>
+    <p style="text-align: center;">Better sleep through science & data.</p>
+    <hr style="margin: 30px 0; border: 0; border-top: 1px solid #eee;">
+
+    {{ range .Site.RegularPages }}
+    <div class="post-card">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+        <p>{{ .Params.description }}</p>
+        <a href="{{ .RelPermalink }}"><strong>Read Review →</strong></a>
+    </div>
+    {{ end }}
+</body>
+</html>
